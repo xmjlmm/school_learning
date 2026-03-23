@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>判断循环网页</title>
+    <style>
+        .centered-text {
+            width: 50%; /* 设置一个固定宽度 */
+            margin: 0 auto; /* 左右自动居中 */
+        }
+    </style>
+</head>
+<body>
+
+<h1>
+    {% if name == '舒彤' %}
+    <div class="centered-text">
+        </div> 舒彤 </div>
+    </div>
+    {% else %}
+    <div>
+        Ich mag dich nicht
+    </div>
+    {% endif %}
+</h1>
+
+<h2>
+    {% for item in success %}
+    <div>
+        {{ item }}
+    </div>
+    {% endfor %}
+</h2>
+
+</body>
+</html>
