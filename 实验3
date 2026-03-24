@@ -1,0 +1,76 @@
+'''
+import  urllib.request
+from  html.parser  import  HTMLParser
+import  re
+import  csv
+
+#  Step  1:  Get  the  HTML  content  of  the  page
+url  =  'http://www.chinadaily.com.cn/sports/soccer/pageX.html'    #  Replace  X  with  the  page  number
+response  =  urllib.request.urlopen(url)
+html_content  =  response.read().decode('utf-8')
+
+#  Step  2:  Use  regular  expressions  to  parse  the  content
+titles  =  re.findall(r'<a  href="(.*?)"  target="_blank"  title="(.*?)">',  html_content)
+sources_dates  =  re.findall(r'<span  class="time">(\d{4}-\d{2}-\d{2})  (\d{2}:\d{2})</span>.*?<a  href=".*?"  target="_blank">(.*?)</a>',  html_content)
+
+#  Step  3:  Save  the  content  to  local  files
+with  open(f'pageX_list.html',  'w',  encoding='utf-8')  as  file:
+        file.write(html_content)
+
+for  i,  (title,  link)  in  enumerate(titles):
+        response  =  urllib.request.urlopen(link)
+        article_html  =  response.read().decode('utf-8')
+        with  open(f'pageX_{i+1}.html',  'w',  encoding='utf-8')  as  file:
+                file.write(article_html)
+
+#  Step  4:  Use  HTMLParser  to  parse  the  article  content
+class  MyHTMLParser(HTMLParser):
+        in_content  =  False
+        content  =  []
+
+        def  handle_starttag(self,  tag,  attrs):
+                if  tag  ==  'p':
+                        self.in_content  =  True
+
+        def  handle_endtag(self,  tag):
+                if  tag  ==  'p':
+                        self.in_content  =  False
+
+        def  handle_data(self,  data):
+                if  self.in_content:
+                        self.content.append(data)
+
+parser  =  MyHTMLParser()
+for  i  in  range(len(titles)):
+        with  open(f'pageX_{i+1}.html',  'r',  encoding='utf-8')  as  file:
+                article_html  =  file.read()
+                parser.feed(article_html)
+                content  =  '  '.join(parser.content)
+                with  open(f'pageX_{i+1}.txt',  'w',  encoding='utf-8')  as  output_file:
+                        output_file.write(content)
+                parser.content  =  []
+
+#  Step  5:  Save  the  parsed  content  to  a  CSV  file
+rows  =  []
+for  i,  (title,  link)  in  enumerate(titles):
+        source,  date  =  sources_dates[i][2],  f'{sources_dates[i][0]}  {sources_dates[i][1]}'
+        row  =  [f'pageX_{i+1}',  title,  link,  source,  date]
+        rows.append(row)
+
+with  open('pageX_result.csv',  'w',  newline='',  encoding='utf-8')  as  csv_file:
+        writer  =  csv.writer(csv_file)
+        writer.writerow(['File  Name',  'Title',  'URL',  'Source',  'Date'])
+        writer.writerows(rows)
+'''
+
+        ls = [n * [inf]] * n
+        for ele in edges:
+            x = ele[0]
+            y = ele[1]
+            ls[x][y] = ele[2]
+        for k in range(n):
+            ls[k][k] = 0
+            for i in range(n):
+                for j in range(n):
+                    if ls[i][j] > ls[i][k] + ls[k][j]:
+                        ls[i][j] = ls[i][k] + ls[k][j]
