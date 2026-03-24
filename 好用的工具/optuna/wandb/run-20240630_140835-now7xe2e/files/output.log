@@ -1,0 +1,88 @@
+[I 2024-06-30 14:08:38,823] A new study created in memory with name: no-name-ce9350bc-80c9-46b7-9153-d5e70ddd0f79
+[W 2024-06-30 14:08:38,851] Trial 0 failed with parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00020536976872443467, 'hidden_layer_sizes': 256, 'activation': 'logistic', 'solver': 'adadelta'} because of the following error: ValueError('\nAll the 3 fits failed.\nIt is very likely that your model is misconfigured.\nYou can try to debug the error by setting error_score=\'raise\'.\n\nBelow are more details about the failures:\n--------------------------------------------------------------------------------\n3 fits failed with the following error:\nTraceback (most recent call last):\n  File "F:\\PycharmProjects\\venv\\Lib\\site-packages\\sklearn\\model_selection\\_validation.py", line 888, in _fit_and_score\n    estimator.fit(X_train, y_train, **fit_params)\n  File "F:\\PycharmProjects\\venv\\Lib\\site-packages\\sklearn\\base.py", line 1466, in wrapper\n    estimator._validate_params()\n  File "F:\\PycharmProjects\\venv\\Lib\\site-packages\\sklearn\\base.py", line 666, in _validate_params\n    validate_parameter_constraints(\n  File "F:\\PycharmProjects\\venv\\Lib\\site-packages\\sklearn\\utils\\_param_validation.py", line 95, in validate_parameter_constraints\n    raise InvalidParameterError(\nsklearn.utils._param_validation.InvalidParameterError: The \'solver\' parameter of MLPClassifier must be a str among {\'adam\', \'lbfgs\', \'sgd\'}. Got \'adadelta\' instead.\n').
+Traceback (most recent call last):
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\分类比拼.py", line 57, in objective
+    score = sklearn.model_selection.cross_val_score(classifier_obj, x, y, n_jobs=1, cv=3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 712, in cross_val_score
+    cv_results = cross_validate(
+                 ^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 443, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 529, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError:
+All the 3 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+3 fits failed with the following error:
+Traceback (most recent call last):
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\base.py", line 1466, in wrapper
+    estimator._validate_params()
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\base.py", line 666, in _validate_params
+    validate_parameter_constraints(
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'solver' parameter of MLPClassifier must be a str among {'adam', 'lbfgs', 'sgd'}. Got 'adadelta' instead.
+[W 2024-06-30 14:08:38,856] Trial 0 failed with value None.
+Traceback (most recent call last):
+  File "F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\分类比拼.py", line 68, in <module>
+    study.optimize(objective, n_trials=10)
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\study.py", line 451, in optimize
+    _optimize(
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 62, in _optimize
+    _optimize_sequential(
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 159, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 247, in _run_trial
+    raise func_err
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\分类比拼.py", line 57, in objective
+    score = sklearn.model_selection.cross_val_score(classifier_obj, x, y, n_jobs=1, cv=3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 712, in cross_val_score
+    cv_results = cross_validate(
+                 ^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 443, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 529, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError:
+All the 3 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+3 fits failed with the following error:
+Traceback (most recent call last):
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\base.py", line 1466, in wrapper
+    estimator._validate_params()
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\base.py", line 666, in _validate_params
+    validate_parameter_constraints(
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'solver' parameter of MLPClassifier must be a str among {'adam', 'lbfgs', 'sgd'}. Got 'adadelta' instead.

@@ -1,0 +1,119 @@
+[I 2024-06-27 16:47:59,025] A new study created in memory with name: no-name-fc5c99cb-00a5-4e69-91c2-69770795d75a
+[I 2024-06-27 16:48:00,807] Trial 0 finished with value: 0.9533333333333333 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 16, 'rf_min_samples_split': 13, 'rf_min_samples_leaf': 6, 'rf_max_features': 'log2'}. Best is trial 0 with value: 0.9533333333333333.
+[I 2024-06-27 16:48:01,645] Trial 1 finished with value: 0.96 and parameters: {'classifier': 'SVC', 'svc_c': 27650.221129193655, 'gamma': 'auto', 'kernel': 'rbf'}. Best is trial 1 with value: 0.96.
+[I 2024-06-27 16:48:03,031] Trial 2 finished with value: 0.96 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.0983709891776455, 'xgb_max_depth': 4, 'xgb_min_child_weight': 2.987382640683295e-05, 'xgb_subsample': 0.5911524715636431, 'xgb_colsample_bytree': 0.8202401179930208}. Best is trial 1 with value: 0.96.
+[I 2024-06-27 16:48:04,541] Trial 3 finished with value: 0.96 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.037885341860758544, 'xgb_max_depth': 9, 'xgb_min_child_weight': 0.002112693381848261, 'xgb_subsample': 0.728370371796691, 'xgb_colsample_bytree': 0.9118824191797557}. Best is trial 1 with value: 0.96.
+[I 2024-06-27 16:48:06,097] Trial 4 finished with value: 0.7799999999999999 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.09255613450376099, 'xgb_max_depth': 3, 'xgb_min_child_weight': 16.443342506125923, 'xgb_subsample': 0.7337073125590579, 'xgb_colsample_bytree': 0.5724772608055748}. Best is trial 1 with value: 0.96.
+[I 2024-06-27 16:48:07,079] Trial 5 finished with value: 0.96 and parameters: {'classifier': 'SVC', 'svc_c': 19548462.569862396, 'gamma': 'auto', 'kernel': 'linear'}. Best is trial 1 with value: 0.96.
+[I 2024-06-27 16:48:07,178] Trial 6 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.9750306207244862e-05, 'hidden_layer_sizes': 64, 'activation': 'tanh', 'solver': 'lbfgs'}. Best is trial 6 with value: 0.9733333333333333.
+[I 2024-06-27 16:48:07,234] Trial 7 finished with value: 0.32 and parameters: {'classifier': 'SVC', 'svc_c': 4.609556558220728e-06, 'gamma': 'scale', 'kernel': 'rbf'}. Best is trial 6 with value: 0.9733333333333333.
+[I 2024-06-27 16:48:07,476] Trial 8 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0001786486197267768, 'hidden_layer_sizes': 256, 'activation': 'relu', 'solver': 'adam'}. Best is trial 6 with value: 0.9733333333333333.
+[I 2024-06-27 16:48:07,700] Trial 9 finished with value: 0.96 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 16, 'rf_min_samples_split': 16, 'rf_min_samples_leaf': 5, 'rf_max_features': 'sqrt'}. Best is trial 6 with value: 0.9733333333333333.
+[I 2024-06-27 16:48:07,825] Trial 10 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.0707297669028899e-05, 'hidden_layer_sizes': 64, 'activation': 'tanh', 'solver': 'lbfgs'}. Best is trial 6 with value: 0.9733333333333333.
+[I 2024-06-27 16:48:08,093] Trial 11 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 9.473309627397102e-05, 'hidden_layer_sizes': 256, 'activation': 'relu', 'solver': 'adam'}. Best is trial 6 with value: 0.9733333333333333.
+[I 2024-06-27 16:48:08,291] Trial 12 finished with value: 0.9666666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.002715535483751593, 'hidden_layer_sizes': 128, 'activation': 'relu', 'solver': 'lbfgs'}. Best is trial 6 with value: 0.9733333333333333.
+[I 2024-06-27 16:48:08,790] Trial 13 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00011527220021625794, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:10,031] Trial 14 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.0473016603014085e-05, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'sgd'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:11,201] Trial 15 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0825649637242, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'sgd'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:17,287] Trial 16 finished with value: 0.96 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00036942564667108083, 'hidden_layer_sizes': 512, 'activation': 'logistic', 'solver': 'sgd'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:18,520] Trial 17 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 3.408341422295459e-05, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'sgd'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:18,741] Trial 18 finished with value: 0.9466666666666667 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 2, 'rf_min_samples_split': 2, 'rf_min_samples_leaf': 1, 'rf_max_features': 'log2'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:19,239] Trial 19 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.002446996882469705, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:20,011] Trial 20 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.003347522483239669, 'hidden_layer_sizes': 128, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:20,580] Trial 21 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0012110338108348238, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:21,138] Trial 22 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 7.181019548896894e-05, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:22,409] Trial 23 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.004905568599718547, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'sgd'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:24,041] Trial 24 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0004955179132787761, 'hidden_layer_sizes': 512, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:24,572] Trial 25 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.010879434284428764, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:24,626] Trial 26 finished with value: 0.3333333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.011366682109998536, 'xgb_max_depth': 8, 'xgb_min_child_weight': 78.4746723434712, 'xgb_subsample': 0.9710562834838107, 'xgb_colsample_bytree': 0.5069531995223182}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:24,828] Trial 27 finished with value: 0.9466666666666667 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 2, 'rf_min_samples_split': 3, 'rf_min_samples_leaf': 9, 'rf_max_features': 'sqrt'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:24,846] Trial 28 finished with value: 0.32 and parameters: {'classifier': 'SVC', 'svc_c': 1.3903164897944192e-09, 'gamma': 'scale', 'kernel': 'poly'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:25,149] Trial 29 finished with value: 0.9666666666666667 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 32, 'rf_min_samples_split': 20, 'rf_min_samples_leaf': 1, 'rf_max_features': 'sqrt'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:25,657] Trial 30 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.01602014971476774, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:26,268] Trial 31 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.019774393458205943, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:26,784] Trial 32 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.014284332417699273, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:27,419] Trial 33 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.01839043898975909, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:27,710] Trial 34 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.007639834792309404, 'hidden_layer_sizes': 64, 'activation': 'tanh', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:27,729] Trial 35 finished with value: 0.9666666666666667 and parameters: {'classifier': 'SVC', 'svc_c': 0.11918958923444878, 'gamma': 'auto', 'kernel': 'linear'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:28,299] Trial 36 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.29777634028152666, 'xgb_max_depth': 6, 'xgb_min_child_weight': 0.22458058352040008, 'xgb_subsample': 0.9727568619984017, 'xgb_colsample_bytree': 0.9925958150184394}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:28,937] Trial 37 finished with value: 0.96 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.014470149915928996, 'xgb_max_depth': 3, 'xgb_min_child_weight': 1.4657434821769255e-05, 'xgb_subsample': 0.5256132042603666, 'xgb_colsample_bytree': 0.680905329906315}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:29,476] Trial 38 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0015343913858689947, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:29,495] Trial 39 finished with value: 0.9666666666666667 and parameters: {'classifier': 'SVC', 'svc_c': 2.46758046023443, 'gamma': 'scale', 'kernel': 'poly'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:30,063] Trial 40 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.09204406914410039, 'hidden_layer_sizes': 128, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:30,611] Trial 41 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.011069627743329513, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:31,084] Trial 42 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.027050035051737656, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:31,611] Trial 43 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.03708498794657904, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[I 2024-06-27 16:48:32,078] Trial 44 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.009459037907141418, 'hidden_layer_sizes': 64, 'activation': 'logistic', 'solver': 'adam'}. Best is trial 13 with value: 0.9866666666666667.
+[W 2024-06-27 16:48:32,938] Trial 45 failed with parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.046572772324033486, 'hidden_layer_sizes': 256, 'activation': 'logistic', 'solver': 'adam'} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\分类比拼.py", line 118, in objective
+    score = sklearn.model_selection.cross_val_score(classifier_obj, x, y, n_jobs=-1, cv=3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 712, in cross_val_score
+    cv_results = cross_validate(
+                 ^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 423, in cross_validate
+    results = parallel(
+              ^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\parallel.py", line 67, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\joblib\parallel.py", line 2007, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\joblib\parallel.py", line 1650, in _get_outputs
+    yield from self._retrieve()
+  File "F:\PycharmProjects\venv\Lib\site-packages\joblib\parallel.py", line 1762, in _retrieve
+    time.sleep(0.01)
+KeyboardInterrupt
+[W 2024-06-27 16:48:32,947] Trial 45 failed with value None.
+Traceback (most recent call last):
+  File "F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\分类比拼.py", line 129, in <module>
+    study.optimize(objective, n_trials=100)
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\study.py", line 451, in optimize
+    _optimize(
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 62, in _optimize
+    _optimize_sequential(
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 159, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 247, in _run_trial
+    raise func_err
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\分类比拼.py", line 118, in objective
+    score = sklearn.model_selection.cross_val_score(classifier_obj, x, y, n_jobs=-1, cv=3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 712, in cross_val_score
+    cv_results = cross_validate(
+                 ^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 423, in cross_validate
+    results = parallel(
+              ^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\parallel.py", line 67, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\joblib\parallel.py", line 2007, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\joblib\parallel.py", line 1650, in _get_outputs
+    yield from self._retrieve()
+  File "F:\PycharmProjects\venv\Lib\site-packages\joblib\parallel.py", line 1762, in _retrieve
+    time.sleep(0.01)
+KeyboardInterrupt

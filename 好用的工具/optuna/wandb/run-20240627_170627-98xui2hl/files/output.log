@@ -1,0 +1,91 @@
+[I 2024-06-27 17:06:30,231] A new study created in memory with name: no-name-6601066f-c903-4b6e-91c8-c7f5c495fa31
+[I 2024-06-27 17:06:31,235] Trial 0 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.02466900340147929, 'hidden_layer_sizes': 128, 'activation': 'relu', 'solver': 'sgd'}. Best is trial 0 with value: 0.9733333333333333.
+[I 2024-06-27 17:06:31,479] Trial 1 finished with value: 0.9533333333333333 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 14, 'rf_min_samples_split': 13, 'rf_min_samples_leaf': 4, 'rf_max_features': 'log2'}. Best is trial 0 with value: 0.9733333333333333.
+[I 2024-06-27 17:06:31,766] Trial 2 finished with value: 0.96 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.0486967321667262, 'xgb_max_depth': 3, 'xgb_min_child_weight': 0.0013071668299061295, 'xgb_subsample': 0.9870124004268193, 'xgb_colsample_bytree': 0.6444402270371847}. Best is trial 0 with value: 0.9733333333333333.
+[W 2024-06-27 17:06:31,777] Trial 3 failed with parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 4.931659463794402e-05, 'hidden_layer_sizes': 256, 'activation': 'logistic', 'solver': 'adagrad'} because of the following error: ValueError('\nAll the 3 fits failed.\nIt is very likely that your model is misconfigured.\nYou can try to debug the error by setting error_score=\'raise\'.\n\nBelow are more details about the failures:\n--------------------------------------------------------------------------------\n3 fits failed with the following error:\nTraceback (most recent call last):\n  File "F:\\PycharmProjects\\venv\\Lib\\site-packages\\sklearn\\model_selection\\_validation.py", line 888, in _fit_and_score\n    estimator.fit(X_train, y_train, **fit_params)\n  File "F:\\PycharmProjects\\venv\\Lib\\site-packages\\sklearn\\base.py", line 1466, in wrapper\n    estimator._validate_params()\n  File "F:\\PycharmProjects\\venv\\Lib\\site-packages\\sklearn\\base.py", line 666, in _validate_params\n    validate_parameter_constraints(\n  File "F:\\PycharmProjects\\venv\\Lib\\site-packages\\sklearn\\utils\\_param_validation.py", line 95, in validate_parameter_constraints\n    raise InvalidParameterError(\nsklearn.utils._param_validation.InvalidParameterError: The \'solver\' parameter of MLPClassifier must be a str among {\'lbfgs\', \'sgd\', \'adam\'}. Got \'adagrad\' instead.\n').
+Traceback (most recent call last):
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\分类比拼.py", line 118, in objective
+    score = sklearn.model_selection.cross_val_score(classifier_obj, x, y, n_jobs=1, cv=3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 712, in cross_val_score
+    cv_results = cross_validate(
+                 ^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 443, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 529, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError:
+All the 3 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+3 fits failed with the following error:
+Traceback (most recent call last):
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\base.py", line 1466, in wrapper
+    estimator._validate_params()
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\base.py", line 666, in _validate_params
+    validate_parameter_constraints(
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'solver' parameter of MLPClassifier must be a str among {'lbfgs', 'sgd', 'adam'}. Got 'adagrad' instead.
+[W 2024-06-27 17:06:31,778] Trial 3 failed with value None.
+Traceback (most recent call last):
+  File "F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\分类比拼.py", line 129, in <module>
+    study.optimize(objective, n_trials=10)
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\study.py", line 451, in optimize
+    _optimize(
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 62, in _optimize
+    _optimize_sequential(
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 159, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 247, in _run_trial
+    raise func_err
+  File "F:\PycharmProjects\venv\Lib\site-packages\optuna\study\_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\分类比拼.py", line 118, in objective
+    score = sklearn.model_selection.cross_val_score(classifier_obj, x, y, n_jobs=1, cv=3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 712, in cross_val_score
+    cv_results = cross_validate(
+                 ^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 443, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 529, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError:
+All the 3 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+3 fits failed with the following error:
+Traceback (most recent call last):
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\model_selection\_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\base.py", line 1466, in wrapper
+    estimator._validate_params()
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\base.py", line 666, in _validate_params
+    validate_parameter_constraints(
+  File "F:\PycharmProjects\venv\Lib\site-packages\sklearn\utils\_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'solver' parameter of MLPClassifier must be a str among {'lbfgs', 'sgd', 'adam'}. Got 'adagrad' instead.

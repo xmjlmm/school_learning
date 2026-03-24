@@ -1,0 +1,29 @@
+2024-06-27 16:23:34,090 INFO    MainThread:42748 [wandb_setup.py:_flush():76] Current SDK version is 0.17.2
+2024-06-27 16:23:34,090 INFO    MainThread:42748 [wandb_setup.py:_flush():76] Configure stats pid to 42748
+2024-06-27 16:23:34,090 INFO    MainThread:42748 [wandb_setup.py:_flush():76] Loading settings from C:\Users\86159\.config\wandb\settings
+2024-06-27 16:23:34,090 INFO    MainThread:42748 [wandb_setup.py:_flush():76] Loading settings from F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\settings
+2024-06-27 16:23:34,090 INFO    MainThread:42748 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-27 16:23:34,090 INFO    MainThread:42748 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-27 16:23:34,091 INFO    MainThread:42748 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': '分类比拼.py', 'program_abspath': 'F:\\PycharmProjects\\pythonProject\\机器学习\\好用的工具\\optuna\\分类比拼.py', 'program': 'F:\\PycharmProjects\\pythonProject\\机器学习\\好用的工具\\optuna\\分类比拼.py'}
+2024-06-27 16:23:34,091 INFO    MainThread:42748 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-27 16:23:34,091 INFO    MainThread:42748 [wandb_init.py:_log_setup():520] Logging user logs to F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_162334-tkjtwihn\logs\debug.log
+2024-06-27 16:23:34,091 INFO    MainThread:42748 [wandb_init.py:_log_setup():521] Logging internal logs to F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_162334-tkjtwihn\logs\debug-internal.log
+2024-06-27 16:23:34,091 INFO    MainThread:42748 [wandb_init.py:init():560] calling init triggers
+2024-06-27 16:23:34,091 INFO    MainThread:42748 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-27 16:23:34,091 INFO    MainThread:42748 [wandb_init.py:init():610] starting backend
+2024-06-27 16:23:34,091 INFO    MainThread:42748 [wandb_init.py:init():614] setting up manager
+2024-06-27 16:23:34,099 INFO    MainThread:42748 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-06-27 16:23:34,100 INFO    MainThread:42748 [wandb_init.py:init():622] backend started and connected
+2024-06-27 16:23:34,114 INFO    MainThread:42748 [wandb_init.py:init():711] updated telemetry
+2024-06-27 16:23:34,118 INFO    MainThread:42748 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-27 16:23:35,788 ERROR   MainThread:42748 [wandb_init.py:init():770] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-06-27 16:23:35,788 ERROR   MainThread:42748 [wandb_init.py:init():1181] error in wandb.init()
+Traceback (most recent call last):
+  File "F:\PycharmProjects\venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 1171, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "F:\PycharmProjects\venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 776, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-06-27 16:23:38,139 WARNING MsgRouterThr:42748 [router.py:message_loop():77] message_loop has been closed

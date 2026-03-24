@@ -1,0 +1,35 @@
+2024-06-19 19:43:23,539 INFO    MainThread:47840 [wandb_setup.py:_flush():76] Current SDK version is 0.17.2
+2024-06-19 19:43:23,539 INFO    MainThread:47840 [wandb_setup.py:_flush():76] Configure stats pid to 47840
+2024-06-19 19:43:23,539 INFO    MainThread:47840 [wandb_setup.py:_flush():76] Loading settings from C:\Users\86159\.config\wandb\settings
+2024-06-19 19:43:23,539 INFO    MainThread:47840 [wandb_setup.py:_flush():76] Loading settings from F:\PycharmProjects\pythonProject\机器学习\好用的工具\wandb\wandb\可视化预测\wandb\settings
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': '可视化预测.py', 'program_abspath': 'F:\\PycharmProjects\\pythonProject\\机器学习\\好用的工具\\wandb\\wandb\\可视化预测\\可视化预测.py', 'program': 'F:\\PycharmProjects\\pythonProject\\机器学习\\好用的工具\\wandb\\wandb\\可视化预测\\可视化预测.py'}
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_init.py:_log_setup():520] Logging user logs to F:\PycharmProjects\pythonProject\机器学习\好用的工具\wandb\wandb\可视化预测\wandb\run-20240619_194323-63vzlsnd\logs\debug.log
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_init.py:_log_setup():521] Logging internal logs to F:\PycharmProjects\pythonProject\机器学习\好用的工具\wandb\wandb\可视化预测\wandb\run-20240619_194323-63vzlsnd\logs\debug-internal.log
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_init.py:init():560] calling init triggers
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_init.py:init():610] starting backend
+2024-06-19 19:43:23,540 INFO    MainThread:47840 [wandb_init.py:init():614] setting up manager
+2024-06-19 19:43:23,543 INFO    MainThread:47840 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-06-19 19:43:23,544 INFO    MainThread:47840 [wandb_init.py:init():622] backend started and connected
+2024-06-19 19:43:23,548 INFO    MainThread:47840 [wandb_init.py:init():711] updated telemetry
+2024-06-19 19:43:23,552 INFO    MainThread:47840 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-19 19:43:24,636 INFO    MainThread:47840 [wandb_run.py:_on_init():2402] communicating current version
+2024-06-19 19:43:27,074 INFO    MainThread:47840 [wandb_run.py:_on_init():2411] got version response 
+2024-06-19 19:43:27,074 INFO    MainThread:47840 [wandb_init.py:init():795] starting run threads in backend
+2024-06-19 19:43:27,318 INFO    MainThread:47840 [wandb_run.py:_console_start():2380] atexit reg
+2024-06-19 19:43:27,318 INFO    MainThread:47840 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-06-19 19:43:27,319 INFO    MainThread:47840 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-06-19 19:43:27,319 INFO    MainThread:47840 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-06-19 19:43:27,321 INFO    MainThread:47840 [wandb_init.py:init():838] run started, returning control to user process
+2024-06-19 19:43:27,322 INFO    MainThread:47840 [wandb_run.py:_config_callback():1382] config_cb None None {'epochs': 1, 'batch_size': 32, 'lr': 0.001, 'l1_size': 32, 'l2_size': 64, 'conv_kernel': 5, 'img_count': 320}
+2024-06-19 19:44:32,833 INFO    MainThread:47840 [wandb_run.py:_finish():2109] finishing run lmmlmm19980323/table-quickstart/63vzlsnd
+2024-06-19 19:44:32,833 INFO    MainThread:47840 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-06-19 19:44:32,833 INFO    MainThread:47840 [wandb_run.py:_restore():2332] restore
+2024-06-19 19:44:32,834 INFO    MainThread:47840 [wandb_run.py:_restore():2338] restore done
+2024-06-19 19:44:50,840 INFO    MainThread:47840 [wandb_run.py:_footer_history_summary_info():3988] rendering history
+2024-06-19 19:44:50,840 INFO    MainThread:47840 [wandb_run.py:_footer_history_summary_info():4020] rendering summary
+2024-06-19 19:44:50,849 INFO    MainThread:47840 [wandb_run.py:_footer_sync_info():3947] logging synced files

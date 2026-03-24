@@ -1,0 +1,678 @@
+[I 2024-06-27 16:33:37,309] A new study created in memory with name: no-name-a3376464-1867-4a4e-b23b-f61300deae4e
+[I 2024-06-27 16:33:39,266] Trial 0 finished with value: 0.94 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 3, 'rf_min_samples_split': 9, 'rf_min_samples_leaf': 6, 'rf_max_features': 'log2'}. Best is trial 0 with value: 0.94.
+[I 2024-06-27 16:33:40,394] Trial 1 finished with value: 0.9466666666666667 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 13, 'rf_min_samples_split': 11, 'rf_min_samples_leaf': 6, 'rf_max_features': 'log2'}. Best is trial 1 with value: 0.9466666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:41,993] Trial 2 finished with value: 0.8799999999999999 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.001641642294109542, 'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd'}. Best is trial 1 with value: 0.9466666666666667.
+[I 2024-06-27 16:33:42,962] Trial 3 finished with value: 0.9533333333333333 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 16, 'rf_min_samples_split': 5, 'rf_min_samples_leaf': 7, 'rf_max_features': 'log2'}. Best is trial 3 with value: 0.9533333333333333.
+[I 2024-06-27 16:33:44,358] Trial 4 finished with value: 0.9666666666666667 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.0158701606669363, 'xgb_max_depth': 7}. Best is trial 4 with value: 0.9666666666666667.
+[I 2024-06-27 16:33:45,649] Trial 5 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.04627405290721529, 'xgb_max_depth': 5}. Best is trial 4 with value: 0.9666666666666667.
+[I 2024-06-27 16:33:46,432] Trial 6 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.11220531118018773, 'xgb_max_depth': 6}. Best is trial 4 with value: 0.9666666666666667.
+[I 2024-06-27 16:33:46,686] Trial 7 finished with value: 0.96 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 3, 'rf_min_samples_split': 14, 'rf_min_samples_leaf': 1, 'rf_max_features': 'log2'}. Best is trial 4 with value: 0.9666666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:47,667] Trial 8 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.002053654930919785, 'hidden_layer_sizes': (256,), 'activation': 'logistic', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+[I 2024-06-27 16:33:47,890] Trial 9 finished with value: 0.96 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 2, 'rf_min_samples_split': 15, 'rf_min_samples_leaf': 10, 'rf_max_features': 'log2'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:48,242] Trial 10 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.050086351184357635, 'hidden_layer_sizes': (256,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:48,550] Trial 11 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.06578232270753291, 'hidden_layer_sizes': (256,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+[I 2024-06-27 16:33:48,569] Trial 12 finished with value: 0.32 and parameters: {'classifier': 'SVC', 'svc_c': 3.461118645972625e-07, 'gamma': 'auto', 'kernel': 'linear'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:49,605] Trial 13 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.012642359993524135, 'hidden_layer_sizes': (256,), 'activation': 'logistic', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:49,937] Trial 14 finished with value: 0.9666666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.722930863719433e-05, 'hidden_layer_sizes': (256,), 'activation': 'relu', 'solver': 'lbfgs'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:50,173] Trial 15 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0003220942404661197, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+[I 2024-06-27 16:33:50,235] Trial 16 finished with value: 0.96 and parameters: {'classifier': 'SVC', 'svc_c': 4314374118.59828, 'gamma': 'scale', 'kernel': 'rbf'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:51,713] Trial 17 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.003802487556540223, 'hidden_layer_sizes': (512,), 'activation': 'logistic', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:52,072] Trial 18 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.06990597033234949, 'hidden_layer_sizes': (256,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:52,331] Trial 19 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0001950395594882656, 'hidden_layer_sizes': (256,), 'activation': 'relu', 'solver': 'lbfgs'}. Best is trial 8 with value: 0.98.
+[I 2024-06-27 16:33:52,390] Trial 20 finished with value: 0.9533333333333333 and parameters: {'classifier': 'SVC', 'svc_c': 375145.0691802148, 'gamma': 'scale', 'kernel': 'poly'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:52,712] Trial 21 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.05728591838201086, 'hidden_layer_sizes': (256,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:53,055] Trial 22 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.023255257439261188, 'hidden_layer_sizes': (256,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:53,365] Trial 23 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.010771281127875476, 'hidden_layer_sizes': (256,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:53,902] Trial 24 finished with value: 0.8866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.07801994490906909, 'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd'}. Best is trial 8 with value: 0.98.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:54,131] Trial 25 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.003822585225577289, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:54,398] Trial 26 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0025580621680906654, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:55,080] Trial 27 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0004994970270064972, 'hidden_layer_sizes': (128,), 'activation': 'logistic', 'solver': 'adam'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:33:55,745] Trial 28 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.28126144130666825, 'xgb_max_depth': 3}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:33:55,765] Trial 29 finished with value: 0.32 and parameters: {'classifier': 'SVC', 'svc_c': 7.26800344578409e-10, 'gamma': 'auto', 'kernel': 'rbf'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:56,980] Trial 30 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.007394473799987024, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:58,277] Trial 31 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.006083521523637442, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:33:59,613] Trial 32 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0061112643475594456, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:00,900] Trial 33 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.006956768725676988, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:02,252] Trial 34 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.006481132061328623, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:02,370] Trial 35 finished with value: 0.96 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 27, 'rf_min_samples_split': 20, 'rf_min_samples_leaf': 1, 'rf_max_features': 'sqrt'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:03,620] Trial 36 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.017398933263462438, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:03,661] Trial 37 finished with value: 0.9466666666666667 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.010275910287407613, 'xgb_max_depth': 3}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:03,830] Trial 38 finished with value: 0.9466666666666667 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 6, 'rf_min_samples_split': 2, 'rf_min_samples_leaf': 10, 'rf_max_features': 'sqrt'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:05,092] Trial 39 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0008043308815922561, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:05,685] Trial 40 finished with value: 0.96 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.03497282207849203, 'xgb_max_depth': 9}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:06,969] Trial 41 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.004950031870418388, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:08,332] Trial 42 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0071996374151307215, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:09,698] Trial 43 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.02336920522372882, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:11,040] Trial 44 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0038332959742571346, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:11,889] Trial 45 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0012394972414406847, 'hidden_layer_sizes': (512,), 'activation': 'relu', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:12,100] Trial 46 finished with value: 0.9533333333333333 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 6, 'rf_min_samples_split': 20, 'rf_min_samples_leaf': 3, 'rf_max_features': 'sqrt'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:12,580] Trial 47 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.009021621467849005, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:13,932] Trial 48 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.004070346603354814, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:13,952] Trial 49 finished with value: 0.9733333333333333 and parameters: {'classifier': 'SVC', 'svc_c': 0.1243216576162927, 'gamma': 'scale', 'kernel': 'poly'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:14,287] Trial 50 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0019421892313434392, 'hidden_layer_sizes': (64,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:15,677] Trial 51 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.005448772265652221, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:17,030] Trial 52 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.008135031637595162, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:18,366] Trial 53 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0025507914036883342, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:19,683] Trial 54 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.03176456436809011, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:21,181] Trial 55 finished with value: 0.9666666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.013293447231850218, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'lbfgs'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:21,640] Trial 56 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.006682652972064445, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:22,232] Trial 57 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.14235780998402886, 'xgb_max_depth': 4}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:23,080] Trial 58 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.001451761127676785, 'hidden_layer_sizes': (512,), 'activation': 'relu', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:23,099] Trial 59 finished with value: 0.96 and parameters: {'classifier': 'SVC', 'svc_c': 0.28361874515850416, 'gamma': 'auto', 'kernel': 'linear'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:23,449] Trial 60 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0032288605222339744, 'hidden_layer_sizes': (64,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:24,769] Trial 61 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.01570477758054988, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:26,175] Trial 62 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.019282452752263965, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:27,472] Trial 63 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.010918867864474676, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:28,115] Trial 64 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.038065397471757065, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'lbfgs'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:28,234] Trial 65 finished with value: 0.9466666666666667 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 27, 'rf_min_samples_split': 7, 'rf_min_samples_leaf': 4, 'rf_max_features': 'sqrt'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:28,720] Trial 66 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0057042532109087924, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:31,484] Trial 67 finished with value: 0.9333333333333332 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.015438797657408994, 'hidden_layer_sizes': (512,), 'activation': 'logistic', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:33,031] Trial 68 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00748799102559539, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:33,282] Trial 69 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 7.709446471257692e-05, 'hidden_layer_sizes': (512,), 'activation': 'relu', 'solver': 'lbfgs'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:33,335] Trial 70 finished with value: 0.9666666666666667 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.02457380740246407, 'xgb_max_depth': 9}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:34,906] Trial 71 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0006594914502846979, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:36,478] Trial 72 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0010670807080857014, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:38,016] Trial 73 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.001955006463778726, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:38,299] Trial 74 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.003283688199810481, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:39,867] Trial 75 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00024455587354484294, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:39,938] Trial 76 finished with value: 0.9466666666666667 and parameters: {'classifier': 'SVC', 'svc_c': 11242.109699094595, 'gamma': 'auto', 'kernel': 'poly'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:40,551] Trial 77 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0007070837734450642, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:40,692] Trial 78 finished with value: 0.94 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 10, 'rf_min_samples_split': 15, 'rf_min_samples_leaf': 8, 'rf_max_features': 'sqrt'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:43,593] Trial 79 finished with value: 0.9333333333333332 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.010534452366643533, 'hidden_layer_sizes': (512,), 'activation': 'logistic', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:44,042] Trial 80 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.005130300039348046, 'hidden_layer_sizes': (64,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:45,635] Trial 81 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.004571994906489865, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:47,163] Trial 82 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.007441699658717453, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:48,715] Trial 83 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0028689315572304097, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:49,050] Trial 84 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.025182626804655724, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'adam'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:50,644] Trial 85 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.0448714199345444e-05, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:51,499] Trial 86 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.004989474382068689, 'hidden_layer_sizes': (256,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:53,082] Trial 87 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.009483623865750298, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:53,815] Trial 88 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.07957678545656004, 'xgb_max_depth': 4}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:54,139] Trial 89 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.015419175182688365, 'hidden_layer_sizes': (512,), 'activation': 'relu', 'solver': 'adam'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:34:54,161] Trial 90 finished with value: 0.32 and parameters: {'classifier': 'SVC', 'svc_c': 7.556206865020751e-05, 'gamma': 'scale', 'kernel': 'rbf'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:55,746] Trial 91 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.006818028834958779, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:57,428] Trial 92 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0039896980525390546, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:58,925] Trial 93 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.011636649230144331, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:34:59,393] Trial 94 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0021764414175137544, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:35:00,734] Trial 95 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.006652378353855268, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+[I 2024-06-27 16:35:00,851] Trial 96 finished with value: 0.9533333333333333 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 4, 'rf_min_samples_split': 2, 'rf_min_samples_leaf': 4, 'rf_max_features': 'sqrt'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:35:02,254] Trial 97 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.008598016671737171, 'hidden_layer_sizes': (512,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:35:03,015] Trial 98 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.018686588639215712, 'hidden_layer_sizes': (512,), 'activation': 'logistic', 'solver': 'lbfgs'}. Best is trial 25 with value: 0.9866666666666667.
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (64,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (128,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (256,) which is of type tuple.
+  warnings.warn(message)
+F:\PycharmProjects\venv\Lib\site-packages\optuna\distributions.py:524: UserWarning: Choices for a categorical distribution should be a tuple of None, bool, int, float and str for persistent storage but contains (512,) which is of type tuple.
+  warnings.warn(message)
+[I 2024-06-27 16:35:03,370] Trial 99 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0038139421520920016, 'hidden_layer_sizes': (64,), 'activation': 'tanh', 'solver': 'sgd'}. Best is trial 25 with value: 0.9866666666666667.
+FrozenTrial(number=25, state=1, values=[0.9866666666666667], datetime_start=datetime.datetime(2024, 6, 27, 16, 33, 53, 903854), datetime_complete=datetime.datetime(2024, 6, 27, 16, 33, 54, 131627), params={'classifier': 'NeuralNetwork', 'nn_alpha': 0.003822585225577289, 'hidden_layer_sizes': (128,), 'activation': 'tanh', 'solver': 'adam'}, user_attrs={}, system_attrs={}, intermediate_values={}, distributions={'classifier': CategoricalDistribution(choices=('SVC', 'RandomForest', 'NeuralNetwork', 'XGBoost')), 'nn_alpha': FloatDistribution(high=0.1, log=True, low=1e-05, step=None), 'hidden_layer_sizes': CategoricalDistribution(choices=((64,), (128,), (256,), (512,))), 'activation': CategoricalDistribution(choices=('relu', 'tanh', 'logistic')), 'solver': CategoricalDistribution(choices=('adam', 'lbfgs', 'sgd'))}, trial_id=25, value=None)

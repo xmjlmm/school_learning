@@ -1,0 +1,503 @@
+[I 2024-06-27 16:58:47,980] A new study created in memory with name: no-name-b89e5663-f05e-4004-9bb8-88e10d2df1b1
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:47,985] Trial 0 finished with value: 0.2 and parameters: {'C': 1.157109093190682, 'gamma': 5.0951206604844134e-05}. Best is trial 0 with value: 0.2.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:47,987] Trial 1 finished with value: 0.8333333333333334 and parameters: {'C': 1823.445404463789, 'gamma': 9.856167615244855}. Best is trial 1 with value: 0.8333333333333334.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:47,989] Trial 2 finished with value: 0.9333333333333333 and parameters: {'C': 1392.5101707024671, 'gamma': 0.04131861914310149}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:47,991] Trial 3 finished with value: 0.2 and parameters: {'C': 6.40147556354998e-05, 'gamma': 0.0019409270291928665}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:47,994] Trial 4 finished with value: 0.2 and parameters: {'C': 2321.4879594933354, 'gamma': 4416.136396587281}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:47,998] Trial 5 finished with value: 0.2 and parameters: {'C': 0.1236210101300971, 'gamma': 8258.292822002599}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,000] Trial 6 finished with value: 0.2 and parameters: {'C': 4.501398881584872e-05, 'gamma': 0.0022044902276110324}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,003] Trial 7 finished with value: 0.2 and parameters: {'C': 5.938382668756853, 'gamma': 59475.52211244928}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,006] Trial 8 finished with value: 0.2 and parameters: {'C': 1.762575540595639e-05, 'gamma': 3127.2091729484814}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,009] Trial 9 finished with value: 0.2 and parameters: {'C': 0.1370502022159006, 'gamma': 2.0423159532204786e-05}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,016] Trial 10 finished with value: 0.9333333333333333 and parameters: {'C': 80952.30327630346, 'gamma': 1.7490810090108213}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,026] Trial 11 finished with value: 0.8666666666666667 and parameters: {'C': 42310.28419661797, 'gamma': 5.580151855200811}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,032] Trial 12 finished with value: 0.9333333333333333 and parameters: {'C': 459.9459095042842, 'gamma': 0.1355111007432423}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,041] Trial 13 finished with value: 0.9333333333333333 and parameters: {'C': 89204.75533631559, 'gamma': 0.14109489442465253}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,049] Trial 14 finished with value: 0.5333333333333333 and parameters: {'C': 111.32190291288809, 'gamma': 55.41752569790158}. Best is trial 2 with value: 0.9333333333333333.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,058] Trial 15 finished with value: 0.9666666666666667 and parameters: {'C': 34.69866442800271, 'gamma': 0.010197596142538084}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,066] Trial 16 finished with value: 0.9666666666666667 and parameters: {'C': 15.737023448859816, 'gamma': 0.003102521877354102}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,074] Trial 17 finished with value: 0.2 and parameters: {'C': 0.003088760291093851, 'gamma': 0.0007297512894196037}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,081] Trial 18 finished with value: 0.9666666666666667 and parameters: {'C': 32.54531926637145, 'gamma': 0.0061841766217467726}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,089] Trial 19 finished with value: 0.2 and parameters: {'C': 0.011090271956348052, 'gamma': 0.0003010451627111081}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,097] Trial 20 finished with value: 0.9666666666666667 and parameters: {'C': 5.7150338425879506, 'gamma': 0.01918792011764199}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,104] Trial 21 finished with value: 0.9666666666666667 and parameters: {'C': 23.5061894455546, 'gamma': 0.007813640626191031}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,112] Trial 22 finished with value: 0.9666666666666667 and parameters: {'C': 73.44642103742231, 'gamma': 0.0004336364335331136}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,120] Trial 23 finished with value: 0.9666666666666667 and parameters: {'C': 0.6336890702565039, 'gamma': 0.3552008609334692}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,128] Trial 24 finished with value: 0.6333333333333333 and parameters: {'C': 13.937679676008536, 'gamma': 0.0001067973374883843}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,136] Trial 25 finished with value: 0.9666666666666667 and parameters: {'C': 125.97519087914654, 'gamma': 0.007066500472717009}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,143] Trial 26 finished with value: 0.9333333333333333 and parameters: {'C': 7520.251261528478, 'gamma': 0.04654049899333588}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,151] Trial 27 finished with value: 0.9333333333333333 and parameters: {'C': 2.04875010783539, 'gamma': 0.0054259639290092955}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,159] Trial 28 finished with value: 0.2 and parameters: {'C': 0.2254743878337895, 'gamma': 1.0285260223206192e-05}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,166] Trial 29 finished with value: 0.2 and parameters: {'C': 1.2032005037163263, 'gamma': 0.0001663093834002427}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,175] Trial 30 finished with value: 0.2 and parameters: {'C': 0.013960975325352525, 'gamma': 0.8617511220807487}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,183] Trial 31 finished with value: 0.9666666666666667 and parameters: {'C': 4.649381044642474, 'gamma': 0.025074520866156098}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,191] Trial 32 finished with value: 0.9666666666666667 and parameters: {'C': 20.20627802806764, 'gamma': 0.02158593189578357}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,198] Trial 33 finished with value: 0.9666666666666667 and parameters: {'C': 322.0238498759426, 'gamma': 0.0021622386528807017}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,206] Trial 34 finished with value: 0.8 and parameters: {'C': 56.18266644284268, 'gamma': 5.673545341352171e-05}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,215] Trial 35 finished with value: 0.7666666666666667 and parameters: {'C': 1047.083566651134, 'gamma': 27.3479046360252}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,223] Trial 36 finished with value: 0.9 and parameters: {'C': 5.138423077356716, 'gamma': 0.0011720395082454175}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,230] Trial 37 finished with value: 0.9333333333333333 and parameters: {'C': 6300.803893405926, 'gamma': 0.09382237614056069}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,239] Trial 38 finished with value: 0.9 and parameters: {'C': 0.49264386211147, 'gamma': 0.012191583784594217}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,246] Trial 39 finished with value: 0.9333333333333333 and parameters: {'C': 360.13576101076023, 'gamma': 0.5871612409235638}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,255] Trial 40 finished with value: 0.2 and parameters: {'C': 0.06525474587139656, 'gamma': 0.0030108232365805036}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,262] Trial 41 finished with value: 0.9666666666666667 and parameters: {'C': 16.964020254337907, 'gamma': 0.007591839453864071}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,270] Trial 42 finished with value: 0.9666666666666667 and parameters: {'C': 24.74196087341598, 'gamma': 0.04347484231640965}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,279] Trial 43 finished with value: 0.8 and parameters: {'C': 2.6218660033225185, 'gamma': 0.0013252895790346426}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,288] Trial 44 finished with value: 0.9666666666666667 and parameters: {'C': 9.97620860161932, 'gamma': 0.013699506996365117}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,296] Trial 45 finished with value: 0.9333333333333333 and parameters: {'C': 43.55950235643066, 'gamma': 0.3177935722928556}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,303] Trial 46 finished with value: 0.9666666666666667 and parameters: {'C': 170.9970616770268, 'gamma': 0.0033325578098789992}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,311] Trial 47 finished with value: 0.9666666666666667 and parameters: {'C': 1198.4427298524777, 'gamma': 0.00048697335870487676}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,319] Trial 48 finished with value: 0.9666666666666667 and parameters: {'C': 3.0127900192206467, 'gamma': 0.05244067553084889}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,326] Trial 49 finished with value: 0.9333333333333333 and parameters: {'C': 33.15658489906198, 'gamma': 1.9024276427650193}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,336] Trial 50 finished with value: 0.9333333333333333 and parameters: {'C': 3678.636981729861, 'gamma': 0.14732910584722786}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,343] Trial 51 finished with value: 0.9666666666666667 and parameters: {'C': 70.78072760340878, 'gamma': 0.000345038545477102}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,351] Trial 52 finished with value: 0.2 and parameters: {'C': 8.141578034943707, 'gamma': 3.4718119101310454e-05}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,359] Trial 53 finished with value: 0.9666666666666667 and parameters: {'C': 173.83809353548938, 'gamma': 0.0006496614453369684}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,367] Trial 54 finished with value: 0.9666666666666667 and parameters: {'C': 635.6870746866621, 'gamma': 0.00013069878239682734}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,375] Trial 55 finished with value: 0.9 and parameters: {'C': 1.1188622069453174, 'gamma': 0.007700965961988941}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,382] Trial 56 finished with value: 0.9666666666666667 and parameters: {'C': 82.65178465269194, 'gamma': 0.001322411155189317}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,391] Trial 57 finished with value: 0.2 and parameters: {'C': 0.28646196620270314, 'gamma': 0.00023197694460537605}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,399] Trial 58 finished with value: 0.2 and parameters: {'C': 9.581454470941848, 'gamma': 844.3768089724466}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,407] Trial 59 finished with value: 0.9666666666666667 and parameters: {'C': 29.821644335161793, 'gamma': 0.003663976650584973}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,415] Trial 60 finished with value: 0.9666666666666667 and parameters: {'C': 160.2985805233184, 'gamma': 0.023210595172033194}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,423] Trial 61 finished with value: 0.9333333333333333 and parameters: {'C': 0.57678975059011, 'gamma': 2.1852305232023177}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,431] Trial 62 finished with value: 0.9666666666666667 and parameters: {'C': 1.1997744662154253, 'gamma': 0.01036036752241384}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,439] Trial 63 finished with value: 0.9333333333333333 and parameters: {'C': 0.06636142280015915, 'gamma': 0.2670033826630748}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,446] Trial 64 finished with value: 0.9666666666666667 and parameters: {'C': 2.019122500263815, 'gamma': 0.07246137796632118}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,455] Trial 65 finished with value: 0.2 and parameters: {'C': 0.0008145632961989911, 'gamma': 0.024513249106593967}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,463] Trial 66 finished with value: 0.9 and parameters: {'C': 5.935384300469645, 'gamma': 4.50230694557884}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,471] Trial 67 finished with value: 0.9666666666666667 and parameters: {'C': 16.545532206517322, 'gamma': 0.001874022134038609}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,480] Trial 68 finished with value: 0.2 and parameters: {'C': 0.5074368292342291, 'gamma': 0.0007116921327747419}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,488] Trial 69 finished with value: 0.9333333333333333 and parameters: {'C': 54.42699404211394, 'gamma': 0.24327400695663656}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,497] Trial 70 finished with value: 0.2 and parameters: {'C': 3.5369383508083154, 'gamma': 5.3920058639693096e-05}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,504] Trial 71 finished with value: 0.9666666666666667 and parameters: {'C': 322.37411262468737, 'gamma': 0.005916317050676728}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,512] Trial 72 finished with value: 0.9666666666666667 and parameters: {'C': 111.28788298691207, 'gamma': 0.00446370395401224}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,520] Trial 73 finished with value: 0.9666666666666667 and parameters: {'C': 14.112818203035594, 'gamma': 0.017736454549535423}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,529] Trial 74 finished with value: 0.2 and parameters: {'C': 34.261313702413794, 'gamma': 77113.97524871855}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,537] Trial 75 finished with value: 0.9333333333333333 and parameters: {'C': 227.97140693807492, 'gamma': 0.1052690901947258}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,545] Trial 76 finished with value: 0.9666666666666667 and parameters: {'C': 79.43405878167701, 'gamma': 0.04178430667940746}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,552] Trial 77 finished with value: 0.9666666666666667 and parameters: {'C': 783.7326942019158, 'gamma': 0.0020082246787207158}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,561] Trial 78 finished with value: 0.9333333333333333 and parameters: {'C': 1914.5995620645972, 'gamma': 0.010828445974608665}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,569] Trial 79 finished with value: 0.9 and parameters: {'C': 6.070830484488704, 'gamma': 0.000982740183074933}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,578] Trial 80 finished with value: 0.6333333333333333 and parameters: {'C': 2.0133872180540138, 'gamma': 0.00035276541168708297}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,586] Trial 81 finished with value: 0.9666666666666667 and parameters: {'C': 4.043240286551, 'gamma': 0.026085128738640315}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,592] Trial 82 finished with value: 0.9666666666666667 and parameters: {'C': 22.372700784366106, 'gamma': 0.005431207713350469}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,601] Trial 83 finished with value: 0.9666666666666667 and parameters: {'C': 10.945558436244427, 'gamma': 0.0028908359681252896}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,610] Trial 84 finished with value: 0.9333333333333333 and parameters: {'C': 39.807518459923905, 'gamma': 0.7576248748507407}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,617] Trial 85 finished with value: 0.9333333333333333 and parameters: {'C': 0.16093909004700685, 'gamma': 0.07000416643259437}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,625] Trial 86 finished with value: 0.9666666666666667 and parameters: {'C': 8.248672809805804, 'gamma': 0.4655175839581207}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,634] Trial 87 finished with value: 0.8 and parameters: {'C': 111.38025980376067, 'gamma': 19.689832054370633}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,642] Trial 88 finished with value: 0.9333333333333333 and parameters: {'C': 490.67387413429645, 'gamma': 0.014760419742087177}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,650] Trial 89 finished with value: 0.9666666666666667 and parameters: {'C': 0.8217716379513016, 'gamma': 0.03185693257316791}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,658] Trial 90 finished with value: 0.9666666666666667 and parameters: {'C': 18.80463079545721, 'gamma': 0.0063974348732636225}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,666] Trial 91 finished with value: 0.9666666666666667 and parameters: {'C': 54.49056438939303, 'gamma': 0.010021762665354629}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,674] Trial 92 finished with value: 0.9666666666666667 and parameters: {'C': 1.9046915231707038, 'gamma': 0.16653283543323516}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,682] Trial 93 finished with value: 0.9333333333333333 and parameters: {'C': 5.496337072220068, 'gamma': 0.0017405258158060103}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,690] Trial 94 finished with value: 0.9666666666666667 and parameters: {'C': 21.918299096392502, 'gamma': 0.01572488221799155}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,699] Trial 95 finished with value: 0.9333333333333333 and parameters: {'C': 220.87598816700483, 'gamma': 0.04696803414451313}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,707] Trial 96 finished with value: 0.9666666666666667 and parameters: {'C': 11.165536507037528, 'gamma': 0.00410915534779998}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,714] Trial 97 finished with value: 0.9666666666666667 and parameters: {'C': 120.95498734265944, 'gamma': 0.0010689937600039455}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,724] Trial 98 finished with value: 0.2 and parameters: {'C': 43.68897863422702, 'gamma': 430.74979713494594}. Best is trial 15 with value: 0.9666666666666667.
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:15: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-5, 1e5)
+F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\SVM调优例子.py:16: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  gamma = trial.suggest_loguniform('gamma', 1e-5, 1e5)
+[I 2024-06-27 16:58:48,733] Trial 99 finished with value: 0.9666666666666667 and parameters: {'C': 25.549846898555796, 'gamma': 0.0005730507327918922}. Best is trial 15 with value: 0.9666666666666667.
+Best hyperparameters:  {'C': 34.69866442800271, 'gamma': 0.010197596142538084}
+Best score:  0.9666666666666667

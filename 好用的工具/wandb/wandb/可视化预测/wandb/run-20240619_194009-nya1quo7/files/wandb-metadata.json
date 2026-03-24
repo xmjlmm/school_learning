@@ -1,0 +1,46 @@
+{
+    "os": "Windows-10-10.0.26120-SP0",
+    "python": "3.11.0",
+    "heartbeatAt": "2024-06-19T11:40:12.722788",
+    "startedAt": "2024-06-19T11:40:09.616920",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "Lenovo",
+    "username": "86159",
+    "executable": "F:\\PycharmProjects\\venv\\Scripts\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 477.90331649780273,
+            "used": 135.73226165771484
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.855525970458984
+    }
+}

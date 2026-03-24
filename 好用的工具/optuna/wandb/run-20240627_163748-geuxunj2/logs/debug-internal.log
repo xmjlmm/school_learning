@@ -1,0 +1,766 @@
+2024-06-27 16:37:48,421 INFO    StreamThr :49788 [internal.py:wandb_internal():85] W&B internal server running at pid: 49788, started at: 2024-06-27 16:37:48.421816
+2024-06-27 16:37:48,423 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status
+2024-06-27 16:37:48,427 INFO    WriterThread:49788 [datastore.py:open_for_write():87] open: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\run-geuxunj2.wandb
+2024-06-27 16:37:48,428 DEBUG   SenderThread:49788 [sender.py:send():379] send: header
+2024-06-27 16:37:48,430 DEBUG   SenderThread:49788 [sender.py:send():379] send: run
+2024-06-27 16:37:50,615 INFO    SenderThread:49788 [dir_watcher.py:__init__():211] watching files in: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files
+2024-06-27 16:37:50,620 INFO    SenderThread:49788 [sender.py:_start_run_threads():1188] run started: geuxunj2 with start time 1719477468.421816
+2024-06-27 16:37:50,628 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: check_version
+2024-06-27 16:37:50,628 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: check_version
+2024-06-27 16:37:51,991 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: run_start
+2024-06-27 16:37:52,050 DEBUG   HandlerThread:49788 [system_info.py:__init__():26] System info init
+2024-06-27 16:37:52,050 DEBUG   HandlerThread:49788 [system_info.py:__init__():41] System info init done
+2024-06-27 16:37:52,050 INFO    HandlerThread:49788 [system_monitor.py:start():194] Starting system monitor
+2024-06-27 16:37:52,050 INFO    SystemMonitor:49788 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-27 16:37:52,050 INFO    HandlerThread:49788 [system_monitor.py:probe():214] Collecting system info
+2024-06-27 16:37:52,062 INFO    SystemMonitor:49788 [interfaces.py:start():188] Started cpu monitoring
+2024-06-27 16:37:52,062 INFO    SystemMonitor:49788 [interfaces.py:start():188] Started disk monitoring
+2024-06-27 16:37:52,063 INFO    SystemMonitor:49788 [interfaces.py:start():188] Started gpu monitoring
+2024-06-27 16:37:52,072 INFO    SystemMonitor:49788 [interfaces.py:start():188] Started memory monitoring
+2024-06-27 16:37:52,124 INFO    SystemMonitor:49788 [interfaces.py:start():188] Started network monitoring
+2024-06-27 16:37:52,125 DEBUG   HandlerThread:49788 [system_info.py:probe():152] Probing system
+2024-06-27 16:37:52,129 DEBUG   HandlerThread:49788 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-27 16:37:52,129 DEBUG   HandlerThread:49788 [system_info.py:probe():200] Probing system done
+2024-06-27 16:37:52,129 DEBUG   HandlerThread:49788 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.26120-SP0', 'python': '3.11.0', 'heartbeatAt': '2024-06-27T08:37:52.125774', 'startedAt': '2024-06-27T08:37:48.408741', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'F:\\PycharmProjects\\pythonProject\\机器学习\\好用的工具\\optuna\\分类比拼.py', 'codePathLocal': '分类比拼.py', 'codePath': '分类比拼.py', 'host': 'Lenovo', 'username': '86159', 'executable': 'F:\\PycharmProjects\\venv\\Scripts\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3201.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 3201.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'/': {'total': 477.90331649780273, 'used': 142.48772811889648}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.855525970458984}}
+2024-06-27 16:37:52,129 INFO    HandlerThread:49788 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-27 16:37:52,129 INFO    HandlerThread:49788 [system_monitor.py:probe():227] Publishing system info
+2024-06-27 16:37:52,137 INFO    HandlerThread:49788 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-27 16:37:52,150 DEBUG   SenderThread:49788 [sender.py:send():379] send: files
+2024-06-27 16:37:52,150 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-27 16:37:52,253 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-27 16:37:52,253 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: python_packages
+2024-06-27 16:37:52,253 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-27 16:37:52,254 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: stop_status
+2024-06-27 16:37:52,255 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:37:52,619 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_created():271] file/dir created: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\requirements.txt
+2024-06-27 16:37:52,620 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_created():271] file/dir created: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-metadata.json
+2024-06-27 16:37:53,257 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:37:54,118 DEBUG   SenderThread:49788 [sender.py:send():379] send: telemetry
+2024-06-27 16:37:54,118 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:37:54,258 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:37:54,300 INFO    wandb-upload_0:49788 [upload_job.py:push():130] Uploaded file C:\Users\86159\AppData\Local\Temp\tmpvna7s83lwandb\8kvq2y64-wandb-metadata.json
+2024-06-27 16:37:54,619 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_created():271] file/dir created: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:37:55,069 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:37:55,070 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:37:55,070 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:37:55,071 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:37:55,258 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:37:55,621 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_created():271] file/dir created: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:37:56,260 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:37:56,426 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:37:56,426 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:37:56,426 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:37:56,428 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:37:56,623 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:37:56,623 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:37:57,260 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:37:57,357 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:37:57,358 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:37:57,358 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:37:57,359 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:37:57,623 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:37:58,261 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:37:58,371 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:37:58,371 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:37:58,372 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:37:58,372 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:37:58,624 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:37:58,624 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:37:59,262 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:37:59,299 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:37:59,300 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:37:59,300 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:37:59,300 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:37:59,301 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:37:59,625 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:00,266 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:00,478 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:00,479 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:00,479 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:00,480 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:00,626 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:00,626 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:00,961 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:00,961 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:00,962 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:00,962 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:01,162 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:01,162 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:01,163 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:01,163 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:01,219 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:01,219 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:01,220 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:01,220 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:01,269 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:01,420 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:01,421 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:01,421 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:01,421 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:01,628 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:01,762 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:01,763 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:01,763 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:01,764 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:02,091 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:02,092 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:02,092 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:02,092 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:02,284 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:02,410 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:02,411 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:02,411 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:02,412 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:02,628 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:02,629 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:02,886 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:02,886 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:02,886 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:02,887 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:03,174 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:03,175 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:03,175 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:03,176 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:03,270 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:03,275 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:03,278 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:03,278 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:03,278 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:03,511 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:03,511 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:03,511 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:03,512 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:03,629 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:03,966 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:03,966 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:03,966 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:03,968 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:04,271 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:04,493 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:04,493 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:04,493 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:04,494 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:04,494 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:04,631 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:04,631 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:04,729 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:04,730 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:04,730 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:04,730 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:05,272 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:05,631 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:05,650 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:05,651 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:05,651 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:05,652 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:06,273 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:06,633 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:06,633 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:06,841 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:06,842 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:06,842 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:06,843 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:07,245 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-27 16:38:07,245 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: stop_status
+2024-06-27 16:38:07,274 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:07,635 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:08,129 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:08,129 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:08,129 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:08,130 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:08,274 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:08,437 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:08,438 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:08,438 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:08,438 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:08,636 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:08,637 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:09,276 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:10,284 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:10,336 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:10,337 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:10,337 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:10,337 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:10,337 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:10,639 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:10,639 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:11,272 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:12,273 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:12,641 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:13,273 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:14,274 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:15,275 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:16,204 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:16,204 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:16,204 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:16,206 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:16,207 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:16,276 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:16,440 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:16,441 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:16,441 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:16,442 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:16,500 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:16,501 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:16,501 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:16,502 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:16,646 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:17,026 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:17,027 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:17,027 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:17,027 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:17,276 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:17,647 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:17,664 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:17,665 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:17,665 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:17,666 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:17,903 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:17,905 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:17,905 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:17,905 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:18,256 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:18,257 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:18,257 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:18,258 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:18,277 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:18,628 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:18,629 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:18,629 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:18,630 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:18,649 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:18,650 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:18,939 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:18,940 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:18,940 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:18,940 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:19,107 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:19,108 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:19,108 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:19,109 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:19,278 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:19,650 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:19,844 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:19,845 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:19,845 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:19,845 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:20,276 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:20,277 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:20,277 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:20,277 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:20,281 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:20,653 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:20,653 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:20,763 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:20,764 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:20,764 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:20,764 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:20,975 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:20,976 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:20,976 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:20,976 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:21,276 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:21,378 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:21,379 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:21,381 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:21,397 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:21,654 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:21,685 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:21,685 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:21,685 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:21,686 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:21,686 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:22,090 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:22,091 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:22,091 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:22,092 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:22,249 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-27 16:38:22,249 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: stop_status
+2024-06-27 16:38:22,277 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:22,673 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:22,673 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\config.yaml
+2024-06-27 16:38:22,673 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:22,812 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:22,813 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:22,813 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:22,813 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:23,278 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:23,515 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:23,516 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:23,516 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:23,516 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:23,673 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:24,279 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:24,281 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:24,281 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:24,281 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:24,281 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:24,711 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:24,712 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:25,026 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:25,026 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:25,027 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:25,027 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:25,280 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:25,713 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:25,732 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:25,732 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:25,733 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:25,733 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:25,907 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:25,907 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:25,907 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:25,908 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:26,281 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:26,601 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:26,602 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:26,602 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:26,602 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:26,750 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:26,750 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:27,243 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:27,281 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:27,857 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:27,858 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:27,858 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:27,858 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:28,283 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:28,393 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:28,394 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:28,394 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:28,395 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:28,786 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:28,786 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:29,089 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:29,089 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:29,090 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:29,090 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:29,284 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:29,788 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:29,801 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:29,802 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:29,802 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:29,802 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:30,285 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:30,514 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:30,515 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:30,515 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:30,516 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:30,824 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:30,824 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:31,287 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:32,022 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:32,023 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:32,023 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:32,024 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:32,245 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:32,295 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:32,540 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:32,542 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:32,542 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:32,543 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:32,860 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:32,860 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:33,060 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:33,061 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:33,061 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:33,062 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:33,079 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:33,080 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:33,080 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:33,080 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:33,298 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:33,606 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:33,607 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:33,607 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:33,607 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:33,860 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:34,310 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:34,354 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:34,355 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:34,356 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:34,356 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:34,472 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:34,473 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:34,473 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:34,474 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:34,897 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:34,898 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:35,222 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:35,222 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:35,223 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:35,223 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:35,295 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:35,898 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:35,930 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:35,931 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:35,931 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:35,932 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:36,296 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:36,657 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:36,658 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:36,658 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:36,658 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:36,845 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:36,846 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:36,846 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:36,846 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:36,934 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:36,934 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:37,243 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-27 16:38:37,243 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: stop_status
+2024-06-27 16:38:37,297 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:37,614 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:37,741 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:37,742 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:37,742 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:37,743 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:37,935 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:38,208 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:38,209 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:38,209 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:38,210 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:38,298 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:38,966 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:38,967 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:38,967 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:38,968 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:38,968 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:38,968 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:38,968 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:38,974 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:38,974 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:38,974 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:39,298 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:39,527 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:39,528 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:39,528 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:39,529 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:39,970 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:40,299 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:40,710 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:40,711 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:40,711 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:40,712 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:41,004 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:41,004 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:41,300 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:41,449 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:41,449 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:41,450 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:41,450 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:42,005 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:42,146 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:42,146 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:42,146 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:42,147 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:42,286 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:42,863 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:42,865 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:42,865 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:42,865 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:42,865 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:43,041 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:43,041 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:43,286 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:43,601 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:43,602 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:43,602 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:43,602 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:43,820 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:43,821 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:43,821 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:43,822 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:44,041 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:44,288 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:45,076 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:45,289 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:46,289 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:47,000 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:47,000 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:47,000 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:47,002 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:47,115 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:47,291 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:47,909 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:47,910 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:47,910 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:47,910 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:47,911 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:48,116 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:48,138 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:48,139 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:48,139 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:48,140 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:48,292 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:49,151 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:49,151 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:49,292 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:50,293 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:51,187 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:51,294 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:51,351 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:51,352 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:51,352 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:51,352 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:51,461 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:51,461 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:51,461 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:51,462 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:52,126 DEBUG   SystemMonitor:49788 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 16:38:52,126 DEBUG   SenderThread:49788 [sender.py:send():379] send: stats
+2024-06-27 16:38:52,188 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:52,207 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:52,208 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:52,208 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:52,209 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:52,240 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-27 16:38:52,240 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: stop_status
+2024-06-27 16:38:52,295 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:52,924 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:52,925 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:52,925 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:52,925 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:52,925 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:53,243 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:53,243 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:53,296 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:53,630 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:53,630 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:53,631 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:53,631 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:54,244 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:54,296 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:54,844 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:54,845 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:54,845 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:54,846 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:54,884 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:54,884 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:54,884 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:54,885 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:55,281 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:55,281 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:55,298 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:55,399 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:55,400 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:55,400 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:55,400 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:55,418 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:55,419 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:55,419 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:55,421 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:55,669 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:55,670 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:55,670 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:55,671 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:56,281 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:56,299 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:56,368 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:56,368 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:56,369 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:56,369 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:38:57,316 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:57,317 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:38:57,317 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:58,246 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:38:58,303 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:59,303 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:38:59,352 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:38:59,472 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:38:59,473 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:38:59,473 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:38:59,473 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:00,304 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:39:00,353 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:39:00,771 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:39:00,772 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:39:00,772 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:39:00,773 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:01,305 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:39:01,388 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:39:01,388 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:39:02,028 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:39:02,029 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:39:02,029 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:39:02,030 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:02,306 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:39:02,390 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:39:02,390 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:39:03,247 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:39:03,306 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:39:03,311 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:39:03,312 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:39:03,312 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:39:03,312 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:03,425 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:39:04,308 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:39:04,427 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:39:04,589 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:39:04,589 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:39:04,591 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:39:04,591 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:05,308 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:39:05,317 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:39:05,318 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:39:05,318 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:39:05,318 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:05,461 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:39:05,711 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:39:05,712 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:39:05,712 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:39:05,713 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:05,820 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:39:05,821 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:39:05,821 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:39:05,821 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:06,059 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:39:06,060 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:39:06,060 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:39:06,060 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:06,310 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:39:06,462 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:39:06,462 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:39:07,160 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-27 16:39:07,162 DEBUG   SenderThread:49788 [sender.py:send():379] send: history
+2024-06-27 16:39:07,162 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: summary_record
+2024-06-27 16:39:07,163 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: server_info
+2024-06-27 16:39:07,163 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:07,163 DEBUG   SenderThread:49788 [sender.py:send():379] send: telemetry
+2024-06-27 16:39:07,163 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: server_info
+2024-06-27 16:39:07,496 DEBUG   SenderThread:49788 [sender.py:send():379] send: exit
+2024-06-27 16:39:07,496 INFO    SenderThread:49788 [sender.py:send_exit():586] handling exit code: 0
+2024-06-27 16:39:07,496 INFO    SenderThread:49788 [sender.py:send_exit():588] handling runtime: 75
+2024-06-27 16:39:07,497 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:39:07,497 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:07,497 INFO    SenderThread:49788 [sender.py:send_exit():594] send defer
+2024-06-27 16:39:07,497 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:07,497 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-27 16:39:07,498 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:07,498 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-27 16:39:07,498 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 1
+2024-06-27 16:39:07,498 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:07,498 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-27 16:39:07,498 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:07,498 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-27 16:39:07,498 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 2
+2024-06-27 16:39:07,498 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:07,498 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-27 16:39:07,498 INFO    HandlerThread:49788 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 16:39:07,498 DEBUG   SystemMonitor:49788 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 16:39:07,513 INFO    HandlerThread:49788 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 16:39:07,513 DEBUG   SystemMonitor:49788 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 16:39:07,514 INFO    HandlerThread:49788 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 16:39:07,631 INFO    HandlerThread:49788 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 16:39:07,631 INFO    HandlerThread:49788 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 16:39:07,633 INFO    HandlerThread:49788 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 16:39:07,633 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:07,633 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-27 16:39:07,633 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 3
+2024-06-27 16:39:07,633 DEBUG   SenderThread:49788 [sender.py:send():379] send: stats
+2024-06-27 16:39:07,633 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:07,634 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-27 16:39:07,634 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:07,634 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-27 16:39:07,634 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 4
+2024-06-27 16:39:07,634 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:07,634 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-27 16:39:07,634 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:07,634 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-27 16:39:07,634 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 5
+2024-06-27 16:39:07,634 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:07,634 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-27 16:39:07,635 DEBUG   SenderThread:49788 [sender.py:send():379] send: summary
+2024-06-27 16:39:07,635 INFO    SenderThread:49788 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 16:39:07,636 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:07,636 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-27 16:39:07,636 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 6
+2024-06-27 16:39:07,636 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:07,636 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-27 16:39:07,636 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:07,636 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-27 16:39:07,637 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 16:39:07,940 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 7
+2024-06-27 16:39:07,940 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:07,940 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-27 16:39:07,940 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:07,940 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-27 16:39:08,496 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 16:39:08,498 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:39:08,499 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\config.yaml
+2024-06-27 16:39:08,499 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:39:09,166 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 8
+2024-06-27 16:39:09,166 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 16:39:09,167 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:09,167 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-27 16:39:09,167 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:09,167 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-27 16:39:09,167 INFO    SenderThread:49788 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-27 16:39:09,168 INFO    SenderThread:49788 [job_builder.py:_get_source_type():580] no source found
+2024-06-27 16:39:09,168 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 9
+2024-06-27 16:39:09,168 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:09,168 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-27 16:39:09,168 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:09,169 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-27 16:39:09,169 INFO    SenderThread:49788 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-27 16:39:09,497 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 16:39:09,499 INFO    Thread-16 :49788 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:39:09,499 INFO    SenderThread:49788 [dir_watcher.py:finish():388] scan: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files
+2024-06-27 16:39:09,500 INFO    SenderThread:49788 [dir_watcher.py:finish():402] scan save: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\config.yaml config.yaml
+2024-06-27 16:39:09,500 INFO    SenderThread:49788 [dir_watcher.py:finish():402] scan save: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log output.log
+2024-06-27 16:39:09,503 INFO    SenderThread:49788 [dir_watcher.py:finish():402] scan save: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\requirements.txt requirements.txt
+2024-06-27 16:39:09,505 INFO    SenderThread:49788 [dir_watcher.py:finish():402] scan save: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-metadata.json wandb-metadata.json
+2024-06-27 16:39:09,505 INFO    SenderThread:49788 [dir_watcher.py:finish():402] scan save: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json wandb-summary.json
+2024-06-27 16:39:09,507 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 10
+2024-06-27 16:39:09,507 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 16:39:09,507 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:09,507 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-27 16:39:09,509 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:09,510 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-27 16:39:09,510 INFO    SenderThread:49788 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-27 16:39:10,492 INFO    wandb-upload_1:49788 [upload_job.py:push():130] Uploaded file F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\output.log
+2024-06-27 16:39:10,497 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 16:39:10,497 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 16:39:10,804 INFO    wandb-upload_0:49788 [upload_job.py:push():130] Uploaded file F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\config.yaml
+2024-06-27 16:39:11,371 INFO    wandb-upload_3:49788 [upload_job.py:push():130] Uploaded file F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\wandb-summary.json
+2024-06-27 16:39:11,419 INFO    wandb-upload_2:49788 [upload_job.py:push():130] Uploaded file F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\files\requirements.txt
+2024-06-27 16:39:11,498 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 16:39:11,498 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 16:39:11,620 INFO    Thread-15 (_thread_body):49788 [sender.py:transition_state():614] send defer: 11
+2024-06-27 16:39:11,620 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:11,620 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-27 16:39:11,620 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:11,621 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-27 16:39:11,621 INFO    SenderThread:49788 [file_pusher.py:join():175] waiting for file pusher
+2024-06-27 16:39:11,621 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 12
+2024-06-27 16:39:11,621 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:11,621 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-27 16:39:11,621 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:11,621 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-27 16:39:11,621 INFO    SenderThread:49788 [file_stream.py:finish():601] file stream finish called
+2024-06-27 16:39:12,498 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 16:39:12,565 INFO    SenderThread:49788 [file_stream.py:finish():605] file stream finish is done
+2024-06-27 16:39:12,565 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 13
+2024-06-27 16:39:12,566 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 16:39:12,566 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:12,566 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-27 16:39:12,566 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:12,566 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-06-27 16:39:12,566 INFO    SenderThread:49788 [sender.py:transition_state():614] send defer: 14
+2024-06-27 16:39:12,566 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 16:39:12,567 DEBUG   SenderThread:49788 [sender.py:send():379] send: final
+2024-06-27 16:39:12,567 INFO    HandlerThread:49788 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-27 16:39:12,567 DEBUG   SenderThread:49788 [sender.py:send():379] send: footer
+2024-06-27 16:39:12,567 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: defer
+2024-06-27 16:39:12,567 INFO    SenderThread:49788 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-06-27 16:39:12,568 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 16:39:12,568 DEBUG   SenderThread:49788 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 16:39:12,568 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 16:39:12,569 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-27 16:39:12,569 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-27 16:39:12,569 DEBUG   HandlerThread:49788 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-27 16:39:12,569 INFO    HandlerThread:49788 [handler.py:finish():882] shutting down handler
+2024-06-27 16:39:13,569 INFO    SenderThread:49788 [sender.py:finish():1608] shutting down sender
+2024-06-27 16:39:13,569 INFO    WriterThread:49788 [datastore.py:close():296] close: F:\PycharmProjects\pythonProject\机器学习\好用的工具\optuna\wandb\run-20240627_163748-geuxunj2\run-geuxunj2.wandb
+2024-06-27 16:39:13,569 INFO    SenderThread:49788 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-27 16:39:13,569 INFO    SenderThread:49788 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,107 @@
+[I 2024-06-27 16:26:43,653] A new study created in memory with name: no-name-e521d0e9-a290-4967-a6d7-0d0475901ccd
+[I 2024-06-27 16:26:45,884] Trial 0 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.022123645279985067, 'xgb_max_depth': 3}. Best is trial 0 with value: 0.9533333333333333.
+[I 2024-06-27 16:26:46,685] Trial 1 finished with value: 0.9466666666666667 and parameters: {'classifier': 'SVC', 'svc_c': 0.11088722276574213}. Best is trial 0 with value: 0.9533333333333333.
+[I 2024-06-27 16:26:47,572] Trial 2 finished with value: 0.96 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 14}. Best is trial 2 with value: 0.96.
+[I 2024-06-27 16:26:48,975] Trial 3 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.052839940066717404, 'xgb_max_depth': 8}. Best is trial 2 with value: 0.96.
+[I 2024-06-27 16:26:49,965] Trial 4 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00011070613709102262}. Best is trial 4 with value: 0.98.
+[I 2024-06-27 16:26:50,840] Trial 5 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 4.989141835725485e-05}. Best is trial 4 with value: 0.98.
+[I 2024-06-27 16:26:50,887] Trial 6 finished with value: 0.96 and parameters: {'classifier': 'SVC', 'svc_c': 56.37063408259875}. Best is trial 4 with value: 0.98.
+[I 2024-06-27 16:26:50,902] Trial 7 finished with value: 0.96 and parameters: {'classifier': 'SVC', 'svc_c': 24576404.746971283}. Best is trial 4 with value: 0.98.
+[I 2024-06-27 16:26:51,112] Trial 8 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.002154542407258443}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:51,313] Trial 9 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.06274135455483221}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:51,486] Trial 10 finished with value: 0.9466666666666667 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 2}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:51,741] Trial 11 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0006033253508808565}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:51,954] Trial 12 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0014303635256190678}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:52,193] Trial 13 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.000543057600838128}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:52,430] Trial 14 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.938417870690389e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:52,635] Trial 15 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.005064027332759836}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:52,860] Trial 16 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00011391510413718417}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:53,001] Trial 17 finished with value: 0.96 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 32}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:53,518] Trial 18 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.17899109180527195, 'xgb_max_depth': 9}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:53,721] Trial 19 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00794091385172606}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:53,978] Trial 20 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00014977783527687105}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:54,235] Trial 21 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.177629292585704e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:54,549] Trial 22 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.2693797668844019e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:54,808] Trial 23 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 5.687052994005162e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:55,035] Trial 24 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0033594047841676777}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:55,252] Trial 25 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00029471226894524767}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:55,395] Trial 26 finished with value: 0.9466666666666667 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 2}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:56,150] Trial 27 finished with value: 0.9466666666666667 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.010281373203065462, 'xgb_max_depth': 3}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:56,210] Trial 28 finished with value: 0.32 and parameters: {'classifier': 'SVC', 'svc_c': 6.876924202213342e-10}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:56,821] Trial 29 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.25630665721960566, 'xgb_max_depth': 5}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:57,037] Trial 30 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.030798319514050692}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:57,317] Trial 31 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00022914267640139564}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:57,533] Trial 32 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0011107782150327602}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:57,800] Trial 33 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 3.2731324482163654e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:58,067] Trial 34 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 2.9855454710463436e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:58,085] Trial 35 finished with value: 0.32 and parameters: {'classifier': 'SVC', 'svc_c': 9.59109804061913e-10}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:58,403] Trial 36 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.108373049534097e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:58,434] Trial 37 finished with value: 0.9533333333333333 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 6}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:59,058] Trial 38 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.06526491361723244, 'xgb_max_depth': 6}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:59,356] Trial 39 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 2.9260790590430373e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:59,374] Trial 40 finished with value: 0.96 and parameters: {'classifier': 'SVC', 'svc_c': 1903228919.5165482}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:59,611] Trial 41 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0003270011866634361}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:26:59,878] Trial 42 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 7.805103528901908e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:00,160] Trial 43 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 3.676701281726673e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:00,425] Trial 44 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.002389170128840612}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:00,705] Trial 45 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00021436015485904058}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:00,993] Trial 46 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0001013853019440028}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:01,263] Trial 47 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0004298704069233191}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:01,385] Trial 48 finished with value: 0.9666666666666667 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 6}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:01,675] Trial 49 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0007856709836938009}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:01,953] Trial 50 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0017297013066546966}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:02,245] Trial 51 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00038790682945850794}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:02,569] Trial 52 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.8392758940322086e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:02,892] Trial 53 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 4.755417647517888e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:03,191] Trial 54 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 6.192900889893496e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:03,563] Trial 55 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.002554540479497e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:03,585] Trial 56 finished with value: 0.9733333333333333 and parameters: {'classifier': 'SVC', 'svc_c': 1.076986264165976}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:03,926] Trial 57 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 2.0606855366126638e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:04,710] Trial 58 finished with value: 0.9533333333333333 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.07536565302277311, 'xgb_max_depth': 4}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:05,017] Trial 59 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 4.335643794523015e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:05,315] Trial 60 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0006335228076852993}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:05,648] Trial 61 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.2140866372127735e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:05,946] Trial 62 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.0115886646481044e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:06,235] Trial 63 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 2.5489679210942317e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:06,545] Trial 64 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.6417606356739825e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:06,660] Trial 65 finished with value: 0.94 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 28}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:06,939] Trial 66 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00694191680837996}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:07,207] Trial 67 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00017544854046786125}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:07,479] Trial 68 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 4.5551697495145955e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:07,522] Trial 69 finished with value: 0.9666666666666667 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.010311444441890054, 'xgb_max_depth': 6}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:07,541] Trial 70 finished with value: 0.32 and parameters: {'classifier': 'SVC', 'svc_c': 3.725178486242024e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:07,793] Trial 71 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00036220155519998997}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:08,050] Trial 72 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 7.050360548768005e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:08,328] Trial 73 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00011607193755889564}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:08,616] Trial 74 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0004912009564819244}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:08,863] Trial 75 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0010613295416103683}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:09,131] Trial 76 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0005288565793516037}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:09,379] Trial 77 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0033889118746283525}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:09,407] Trial 78 finished with value: 0.96 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 4}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:09,667] Trial 79 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 1.6620660749649233e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:09,928] Trial 80 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0002623972906626122}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:10,219] Trial 81 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0038079245200038697}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:10,464] Trial 82 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0016389505036033395}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:10,712] Trial 83 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0023870922985041025}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:10,948] Trial 84 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.004533313838564461}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:11,186] Trial 85 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.01120230356955272}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:11,444] Trial 86 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0009533029806780539}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:11,723] Trial 87 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.002490470136760522}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:11,743] Trial 88 finished with value: 0.96 and parameters: {'classifier': 'SVC', 'svc_c': 115621.39533747226}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:11,993] Trial 89 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 2.8302310943712918e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:12,643] Trial 90 finished with value: 0.9666666666666667 and parameters: {'classifier': 'XGBoost', 'xgb_eta': 0.029269602742391192, 'xgb_max_depth': 4}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:12,908] Trial 91 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0004698656670925249}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:13,165] Trial 92 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00013286947207411236}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:13,422] Trial 93 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.0001419063774375331}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:13,680] Trial 94 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00028935724469834244}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:13,961] Trial 95 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.000750352315544038}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:14,188] Trial 96 finished with value: 0.98 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.09823229522465761}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:14,449] Trial 97 finished with value: 0.9866666666666667 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 9.211304022804982e-05}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:14,478] Trial 98 finished with value: 0.9533333333333333 and parameters: {'classifier': 'RandomForest', 'rf_max_depth': 15}. Best is trial 8 with value: 0.9866666666666667.
+[I 2024-06-27 16:27:14,767] Trial 99 finished with value: 0.9733333333333333 and parameters: {'classifier': 'NeuralNetwork', 'nn_alpha': 0.00018517810449944863}. Best is trial 8 with value: 0.9866666666666667.
+Number of finished trials: 100
+Best trial:
+  Value: 0.9866666666666667
+  Params:
+    classifier: NeuralNetwork
+    nn_alpha: 0.002154542407258443
