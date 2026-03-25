@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000428, #004e92);
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1, #countdown, .message {
+    z-index: 2;
+    position: relative;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 0 0 50px rgba(255, 255, 255, 0.6);
+}
+
+.message {
+    display: none;
+    font-size: 6vw;
+    color: #ffeb3b;
+    text-shadow: 0 0 40px #ffeb3b, 0 0 80px #ffeb3b;
+    margin-top: 2vh;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
